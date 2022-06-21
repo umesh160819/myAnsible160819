@@ -9,3 +9,8 @@
 [Mydbwebservers]
 172.31.95.24
 172.31.83.18
+
+[Mywebservers:vars]
+myvariable= value
+mywebpackonubuntu= apache2
+mywebpackonredhat= httpd
