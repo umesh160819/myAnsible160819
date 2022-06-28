@@ -1,0 +1,5 @@
+---
+- name: I want to copy tomcat service file into node side
+  template:
+    src: templates/mytomservicefile.j2
+    dest: /etc/systemd/system/tomcat.service
